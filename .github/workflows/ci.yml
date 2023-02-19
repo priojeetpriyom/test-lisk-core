@@ -1,5 +1,5 @@
-name: Workflow for Codecov example-typescript
-on: [push, pull_request]
+name: Workflow for Codecov lisk-core
+on: [push]
 jobs:
   run:
     runs-on: ubuntu-latest
