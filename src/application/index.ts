@@ -24,3 +24,8 @@ export const getApplication = (config: PartialApplicationConfig): Application =>
 
 	return app;
 };
+
+export const anotherFunc = (config: PartialApplicationConfig): Application => {
+	const { app } = Application.defaultApplication(config, true);
+	return app;
+};
